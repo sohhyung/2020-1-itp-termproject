@@ -61,6 +61,7 @@
 		{
 			color: inherit;
 			text-decoration: none;
+
 		}
 
 	/* Change this to whatever font weight/color pairing is most suitable */
@@ -68,7 +69,13 @@
 	{
 		font-weight: bold;
 	}
-
+  span.alert{
+    font-family: BinggraeMelona;
+    font-weight: bold;
+    color : red;
+    font-size: 18px;
+    text-align: center;
+  }
 	em, i
 	{
 		font-style: italic;
@@ -117,6 +124,9 @@
 	{
 		margin-bottom: 1em;
 	}
+  p.alert{
+    margin-bottom: 0em;
+  }
 
 	header
 	{
@@ -837,7 +847,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		line-height: 45px;
-		font-size: 13pt;
+		font-size: 18px;
 		color: #16576B;
 	}
 
